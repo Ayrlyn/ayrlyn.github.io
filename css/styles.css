@@ -11596,17 +11596,17 @@ html {
 }
 .profile .profile-img {
   height: 80vw;
-  max-height: 45rem;
+  max-height: 25rem;
   position: absolute;
-  bottom: 0;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
 }
 .profile .dots-1 {
   position: absolute;
   width: 3vw;
-  right: 2.5vw;
-  top: 2.5vw;
+  right: 0;
+  top: 7.5%;
 }
 .profile .dots-1 svg {
   fill: var(--bs-white);
@@ -11614,8 +11614,8 @@ html {
 .profile .dots-2 {
   position: absolute;
   width: 3vw;
-  left: 2.5vw;
-  bottom: 2.5vw;
+  left: 5%;
+  bottom: 5%;
 }
 .profile .dots-2 svg {
   fill: var(--bs-white);
@@ -11627,7 +11627,8 @@ html {
     width: 60vw;
   }
   .profile .profile-img {
-    height: 65vw;
+    height: 55vw;
+    max-height: 80%;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -11635,15 +11636,6 @@ html {
   }
   .profile .dots-2 {
     width: 3vw;
-    right: -4vw;
-  }
-  .profile .dots-3 {
-    width: 3vw;
-    left: 1.5vw;
-  }
-  .profile .dots-4 {
-    width: 3vw;
-    left: -4vw;
   }
 }
 @media (min-width: 768px) {
@@ -11653,22 +11645,13 @@ html {
   }
   .profile .profile-img {
     height: 55vw;
+    max-height: 80%;
   }
   .profile .dots-1 {
     width: 3vw;
-    right: 1.5vw;
   }
   .profile .dots-2 {
     width: 3vw;
-    right: -4vw;
-  }
-  .profile .dots-3 {
-    width: 3vw;
-    left: 1.5vw;
-  }
-  .profile .dots-4 {
-    width: 3vw;
-    left: -4vw;
   }
 }
 @media (min-width: 992px) {
@@ -11678,22 +11661,13 @@ html {
   }
   .profile .profile-img {
     height: 45vw;
+    max-height: 80%;
   }
   .profile .dots-1 {
     width: 1.5vw;
-    right: 0.75vw;
   }
   .profile .dots-2 {
     width: 1.5vw;
-    right: -2vw;
-  }
-  .profile .dots-3 {
-    width: 1.5vw;
-    left: 0.75vw;
-  }
-  .profile .dots-4 {
-    width: 1.5vw;
-    left: -2vw;
   }
 }
 @media (min-width: 1200px) {
@@ -11703,21 +11677,12 @@ html {
   }
   .profile .profile-img {
     height: 40vw;
+    max-height: 80%;
   }
   .profile .dots-1 {
     width: 1.5vw;
-    right: 0.75vw;
   }
   .profile .dots-2 {
     width: 1.5vw;
-    right: -2vw;
-  }
-  .profile .dots-3 {
-    width: 1.5vw;
-    left: 0.75vw;
-  }
-  .profile .dots-4 {
-    width: 1.5vw;
-    left: -2vw;
   }
 }
