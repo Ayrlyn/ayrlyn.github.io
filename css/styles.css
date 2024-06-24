@@ -11595,7 +11595,7 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
+  height: 60vw;
   max-height: 25rem;
   position: absolute;
   bottom: 10%;
@@ -11644,7 +11644,7 @@ html {
     width: 50vw;
   }
   .profile .profile-img {
-    height: 55vw;
+    height: 40vw;
     max-height: 80%;
   }
   .profile .dots-1 {
@@ -11660,7 +11660,7 @@ html {
     width: 40vw;
   }
   .profile .profile-img {
-    height: 45vw;
+    height: 30vw;
     max-height: 80%;
   }
   .profile .dots-1 {
@@ -11676,7 +11676,7 @@ html {
     width: 35vw;
   }
   .profile .profile-img {
-    height: 40vw;
+    height: 25vw;
     max-height: 80%;
   }
   .profile .dots-1 {
