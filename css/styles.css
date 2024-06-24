@@ -11589,100 +11589,54 @@ html {
   position: relative;
   height: 75vw;
   width: 75vw;
-  border-radius: 5vw;
+  border-radius: 3vw;
   margin-top: 5vw;
   max-height: 40rem;
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 60vw;
-  max-height: 25rem;
-  position: absolute;
-  bottom: 10%;
+  height: 40vw;
+  position: relative;
+  bottom: -3%;
   left: 50%;
   transform: translateX(-50%);
 }
 .profile .dots-1 {
-  position: absolute;
+  position: relative;
   width: 3vw;
-  right: 0;
-  top: 7.5%;
+  right: -90%;
+  top: -87.5%;
 }
 .profile .dots-1 svg {
   fill: var(--bs-white);
 }
 .profile .dots-2 {
-  position: absolute;
+  position: relative;
   width: 3vw;
-  left: 5%;
-  bottom: 5%;
+  right: -6%;
+  top: -48%;
 }
 .profile .dots-2 svg {
   fill: var(--bs-white);
 }
 
-@media (min-width: 576px) {
-  .profile {
-    height: 60vw;
-    width: 60vw;
-  }
-  .profile .profile-img {
-    height: 55vw;
-    max-height: 80%;
-  }
-  .profile .dots-1 {
-    width: 3vw;
-    right: 1.5vw;
-  }
-  .profile .dots-2 {
-    width: 3vw;
-  }
-}
-@media (min-width: 768px) {
-  .profile {
-    height: 50vw;
-    width: 50vw;
-  }
-  .profile .profile-img {
-    height: 40vw;
-    max-height: 80%;
-  }
-  .profile .dots-1 {
-    width: 3vw;
-  }
-  .profile .dots-2 {
-    width: 3vw;
-  }
-}
-@media (min-width: 992px) {
-  .profile {
-    height: 40vw;
-    width: 40vw;
-  }
-  .profile .profile-img {
-    height: 30vw;
-    max-height: 80%;
-  }
-  .profile .dots-1 {
-    width: 1.5vw;
-  }
-  .profile .dots-2 {
-    width: 1.5vw;
-  }
-}
-@media (min-width: 1200px) {
+@media (max-width: 1919px) {
   .profile {
     height: 35vw;
     width: 35vw;
   }
   .profile .profile-img {
-    height: 25vw;
-    max-height: 80%;
+    height: 30vw;
+    bottom: -6.5%;
   }
   .profile .dots-1 {
     width: 1.5vw;
+    right: -92.5%;
+    top: -80%;
   }
   .profile .dots-2 {
     width: 1.5vw;
+    right: -4.5%;
+    top: -21%;
   }
 }
