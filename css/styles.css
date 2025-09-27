@@ -11595,26 +11595,26 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 40vw;
+  height: 30vw;
   position: relative;
-  bottom: -3%;
+  bottom: -5%;
   left: 50%;
   transform: translateX(-50%);
 }
 .profile .dots-1 {
   position: relative;
-  width: 3vw;
-  right: -90%;
-  top: -87.5%;
+  width: 1.5vw;
+  right: -93.5%;
+  top: -86%;
 }
 .profile .dots-1 svg {
   fill: var(--bs-white);
 }
 .profile .dots-2 {
   position: relative;
-  width: 3vw;
-  right: -6%;
-  top: -48%;
+  width: 1.5vw;
+  right: -3%;
+  top: -25%;
 }
 .profile .dots-2 svg {
   fill: var(--bs-white);
